@@ -1,0 +1,53 @@
+
+var friendArray = [
+{
+  "name":"Ralph",
+  "photo":"http://cdn1-www.dogtime.com/assets/uploads/gallery/30-impossibly-cute-puppies/impossibly-cute-puppy-2.jpg",
+  "scores":[
+      5,
+      1,
+      4,
+      4,
+      5,
+      1,
+      2,
+      5,
+      4,
+      1
+    ]
+},
+{
+  "name":"Sammy",
+  "photo":"https://cdn.psychologytoday.com/sites/default/files/field_blog_entry_images/puppy.jpg",
+  "scores":[
+      3,
+      4,
+      4,
+      4,
+      3,
+      1,
+      2,
+      1,
+      5,
+      2
+    ]
+},
+{
+  "name":"Lola",
+  "photo":"http://www.petmd.com/sites/default/files/salmonella-infection-dogs.jpg",
+  "scores":[
+      5,
+      4,
+      4,
+      1,
+      5,
+      1,
+      5,
+      5,
+      4,
+      2
+    ]
+}
+];
+
+module.exports = friendArray;
