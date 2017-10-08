@@ -16,182 +16,229 @@
       <div class="jumbotron">
         <h1><span class="glyphicon glyphicon-th-list"></span> Survey Questions</h1>
         <hr>
+        <a href="/"><button type="button" class="btn btn-primary btn-lg"><span class="glyphicon glyphicon-home"></span></button></a>
       </div>
 
       <h3><strong>About You</strong></h3>
 
       <hr>
-
+      
+     <!--  Begin Form -->
       <form role="form">
-
+        
+        <!-- Input Name -->
         <h4>Name (Required)</h4>
-          <input type="text" name="" id="name" class="form-control" required ><br>
+          <input type="text" name="" id="friendName" class="form-control" required ><br>
 
+        <!--    Input Image -->
         <h4>Link to Photo Image (Required)</h4>
-          <input type="text" name="" id="photoUrl" class="form-control" required >
+          <input type="text" name="" id="friendPhoto" class="form-control" required >
 
         <hr>
-        
+
+        <h4>Answer the following questions about your fur friend to find their best playdate match!</h4>
+        <br>
+
         <!--QUESTION 1-->
-        <h3><strong>Question 1</strong></h3>
-          <h4>What is the first question?</h4>
-            <select data-placeholder="" class="chosen-select" id="q1">
-              <option value=""></option>
-              <option value="1">1 (Least Likely)</option>
-              <option value="2">2</option>
-              <option value="3">3</option>
-              <option value="4">4</option>
-              <option value="5">5 (Most Likely)</option>
-            </select>
+        <h3>1: My fur friend's size is...</h3>
+          <select data-placeholder="" class="chosen-select" id="q1">
+            <option value=""></option>
+            <option value="1">Under 20lbs</option>
+            <option value="2">20-40lbs</option>
+            <option value="3">40-60lbs</option>
+            <option value="4">60-90lbs</option>
+            <option value="5">Over 90lbs</option>
+          </select>
 
         <!--QUESTION 2-->
-        <h3><strong>Question 2</strong></h3>
-          <h4>What is the second question?</h4>
-            <select data-placeholder="" class="chosen-select" id="q1">
+        <h3>2: My fur friend is how old...</h3>
+          <select data-placeholder="" class="chosen-select" id="q2">
+            <option value=""></option>
+            <option value="1">0-1 yrs</option>
+            <option value="2">1-2 yrs</option>
+            <option value="3">3-5 yrs</option>
+            <option value="4">5-9 yrs</option>
+            <option value="5">10+ yrs</option>
+          </select>
+
+        <!--QUESTION 3-->
+        <h3>3: My fur friend will eat anything...</h3>
+          <select data-placeholder="" class="chosen-select" id="q3">
+            <option value=""></option>
+            <option value="1">1 (Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Agree)</option>
+          </select>
+
+        <!--QUESTION 4-->
+        <h3>4: My fur friends has a ton of energy...</h3>
+          <select data-placeholder="" class="chosen-select" id="q4">
+            <option value=""></option>
+            <option value="1">1 (Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Agree)</option>
+          </select>
+
+        <!--QUESTION 5-->
+        <h3>5:  My fur friend enjoys long walks...</h3>
+          <select data-placeholder="" class="chosen-select" id="q5">
+            <option value=""></option>
+            <option value="1">1 (Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Agree)</option>
+          </select>
+
+        <!--QUESTION 6-->
+        <h3>6: My fur friend enjoys cuddling on the couch, in bed, etc...</h3>
+          <select data-placeholder="" class="chosen-select" id="q6">
+            <option value=""></option>
+            <option value="1">Not allowed on the furniture</option>
+            <option value="2">Allowed on couch, but not on bed</option>
+            <option value="3">Allowed in bed, but not on couch</option>
+            <option value="4">Sometimes allowed on furniture</option>
+            <option value="5">We always cuddle on the furniture</option>
+          </select>
+
+        <!--QUESTION 7-->
+        <h3>7: My fur friend hates the mailman...</h3>
+            <select data-placeholder="" class="chosen-select" id="q7">
               <option value=""></option>
-              <option value="1">1 (Least Likely)</option>
+              <option value="1">1 (Disagree)</option>
               <option value="2">2</option>
               <option value="3">3</option>
               <option value="4">4</option>
-              <option value="5">5 (Most Likely)</option>
+              <option value="5">5 (Agree)</option>
             </select>
 
-            <!--QUESTION 2-->
-        <h3><strong>Question 3</strong></h3>
-          <h4>What is the third question?</h4>
-            <select data-placeholder="" class="chosen-select" id="q1">
+        <!--QUESTION 8-->
+        <h3>8: My fur friend is very protective of me...</h3>
+            <select data-placeholder="" class="chosen-select" id="q8">
               <option value=""></option>
-              <option value="1">1 (Least Likely)</option>
+              <option value="1">1 (Disagree)</option>
               <option value="2">2</option>
               <option value="3">3</option>
               <option value="4">4</option>
-              <option value="5">5 (Most Likely)</option>
+              <option value="5">5 (Agree)</option>
             </select>
 
-            <!--QUESTION 2-->
-        <h3><strong>Question 4</strong></h3>
-          <h4>What is the fourth question?</h4>
-            <select data-placeholder="" class="chosen-select" id="q1">
+        <!--QUESTION 9-->
+        <h3>9: My fur friend gets along with other animals...</h3>
+            <select data-placeholder="" class="chosen-select" id="q9">
               <option value=""></option>
-              <option value="1">1 (Least Likely)</option>
+              <option value="1">1 (Disagree)</option>
               <option value="2">2</option>
               <option value="3">3</option>
               <option value="4">4</option>
-              <option value="5">5 (Most Likely)</option>
+              <option value="5">5 (Agree)</option>
             </select>
 
-            <!--QUESTION 2-->
-        <h3><strong>Question 5</strong></h3>
-          <h4>What is the fifth question?</h4>
-            <select data-placeholder="" class="chosen-select" id="q1">
+        <!--QUESTION 10-->
+        <h3>10: My fur friend needs a new fur friend...</h3>
+            <select data-placeholder="" class="chosen-select" id="q10">
               <option value=""></option>
-              <option value="1">1 (Least Likely)</option>
+              <option value="1">1 (Disagree)</option>
               <option value="2">2</option>
               <option value="3">3</option>
               <option value="4">4</option>
-              <option value="5">5 (Most Likely)</option>
+              <option value="5">5 (Agree)</option>
             </select>
 
-            <!--QUESTION 2-->
-        <h3><strong>Question 6</strong></h3>
-          <h4>What is the sixth question?</h4>
-            <select data-placeholder="" class="chosen-select" id="q1">
-              <option value=""></option>
-              <option value="1">1 (Least Likely)</option>
-              <option value="2">2</option>
-              <option value="3">3</option>
-              <option value="4">4</option>
-              <option value="5">5 (Most Likely)</option>
-            </select>
+        <hr>
 
-            <!--QUESTION 2-->
-        <h3><strong>Question 7</strong></h3>
-          <h4>What is the seventh question?</h4>
-            <select data-placeholder="" class="chosen-select" id="q1">
-              <option value=""></option>
-              <option value="1">1 (Least Likely)</option>
-              <option value="2">2</option>
-              <option value="3">3</option>
-              <option value="4">4</option>
-              <option value="5">5 (Most Likely)</option>
-            </select>
-
-            <!--QUESTION 2-->
-        <h3><strong>Question 8</strong></h3>
-          <h4>What is the eigth question?</h4>
-            <select data-placeholder="" class="chosen-select" id="q1">
-              <option value=""></option>
-              <option value="1">1 (Least Likely)</option>
-              <option value="2">2</option>
-              <option value="3">3</option>
-              <option value="4">4</option>
-              <option value="5">5 (Most Likely)</option>
-            </select>
-
-            <!--QUESTION 2-->
-        <h3><strong>Question 9</strong></h3>
-          <h4>What is the ninth question?</h4>
-            <select data-placeholder="" class="chosen-select" id="q1">
-              <option value=""></option>
-              <option value="1">1 (Least Likely)</option>
-              <option value="2">2</option>
-              <option value="3">3</option>
-              <option value="4">4</option>
-              <option value="5">5 (Most Likely)</option>
-            </select>
-
-            <!--QUESTION 10-->
-        <h3><strong>Question 10</strong></h3>
-          <h4>What is the tenth question?</h4>
-            <select data-placeholder="" class="chosen-select" id="q1">
-              <option value=""></option>
-              <option value="1">1 (Least Likely)</option>
-              <option value="2">2</option>
-              <option value="3">3</option>
-              <option value="4">4</option>
-              <option value="5">5 (Most Likely)</option>
-            </select>
+       <button type="submit" class="btn btn-primary btn-lg btn-block" data-toggle="modal" data-target="#resultsModal" id="submit">See Your Match!</button>
 
       </form><!--End form-->
 
       <br>
 
-      <button type="submit" class="btn btn-primary btn-lg btn-block" id="submit"><span class="glyphicon glyphicon-ok"></span> Submit</button>
-
-      <hr>
-
   <!--FOOTER-->
     <footer class="footer">
       <div class="container">
-          <p><a href="/api/friends">API Friends List</a> | <a href="#">Github Repo</a></p>
+          <p><a href="/api/friends" target="_blank">API Friends List</a> | <a href="https://github.com/Jewel0106/Friend-Finder" target="_blank">Github Repo</a></p>
           <br>
       </div>
     </footer>
 
   </div> <!--End Container-->
 
-  <!-- <div id="resultsModal" class="modal fade" role="dialog">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal">&times;</button>
-                    <h2 class="modal-title"><strong>Best Match</strong></h2>
-                </div>
-                <div class="modal-body">
-                    <h2 id="matchName"></h2>
-                    <img id="matchImg" src="" alt="">
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                </div>
-            </div>
+  <div id="resultsModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">X</button>
+        <h2 class="modal-title">Your New Playdate!</h2>
+      </div>
+      <div class="modal-body">
+        <h2 id="matchName"></h2>
+        <img id="matchImg" width=500px alt="Best Friend">
+            <a href="/match"><button type="button" class="btn btn-primary btn-lg">View Match Profile</button></a>
+      </div>
+    </div>
+  </div>
+</div>
 
-        </div>
-    </div> -->
 
-<script>
+<script type="text/javascript">
 
-//Add in javascript for form functionality
+     $("#submit").on("click", function() {
+         event.preventDefault();
+
+      function validateForm() {
+            var isValid = true;
+            $(".form-control").each(function() {
+                if ($(this).val() === '')
+                    isValid = false;
+            });
+            $(".chosen-select").each(function() {
+                if ($(this).val() === null)
+                    isValid = false
+            })
+            return isValid;
+      }//End validate form function
+
+       if (validateForm() === true) {
+        var newFriend = {
+          name: $("#friendName").val(),
+          photo: $("#friendPhoto").val(),
+          scores: [
+            $("#q1").val(),
+            $("#q2").val(),
+            $("#q3").val(),
+            $("#q4").val(),
+            $("#q5").val(),
+            $("#q6").val(),
+            $("#q7").val(),
+            $("#q8").val(),
+            $("#q9").val(),
+            $("#q10").val()
+          ]
+        };
+
+      var currentURL = window.location.origin;
+        // AJAX post the data to the friends API.
+        $.post(currentURL + "/api/friends", newFriend, function(data) {
+          console.log(newFriend);
+          console.log(data);
+
+          // Grab the result from the AJAX post so that the best match's name and photo are displayed.
+          $("#matchName").text(data.name);
+          $("#matchImg").attr("src", data.photo);
+
+          $("#resultsModal").modal("show");
+          console.log("Your match is...");
+        });
+      }else {
+        alert("Please fill out all fields before submitting!");
+        console.log("Please fill out all fields before submitting!");
+      }
+      return false;
+      });
 
 </script>
 
