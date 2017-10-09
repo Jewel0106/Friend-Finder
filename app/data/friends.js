@@ -4,64 +4,109 @@ var friendArray = [
   "name":"Ralph",
   "photo":"http://cdn1-www.dogtime.com/assets/uploads/gallery/30-impossibly-cute-puppies/impossibly-cute-puppy-2.jpg",
   "scores":[
-      "5",
-      "1",
-      "4",
-      "4",
-      "5",
-      "1",
-      "2",
-      "5",
-      "4",
-      "1"
+      2,
+      1,
+      3,
+      3,
+      2,
+      2,
+      1,
+      1,
+      5,
+      5
     ]
 },
 {
   "name":"Sammy",
   "photo":"https://cdn.psychologytoday.com/sites/default/files/field_blog_entry_images/puppy.jpg",
   "scores":[
-      "3",
-      "4",
-      "4",
-      "4",
-      "3",
-      "1",
-      "2",
-      "1",
-      "5",
-      "2"
+      2,
+      2,
+      5,
+      5,
+      4,
+      1,
+      4,
+      2,
+      5,
+      5
     ]
 },
 {
   "name":"Lola",
   "photo":"http://www.petmd.com/sites/default/files/salmonella-infection-dogs.jpg",
   "scores":[
-      "5",
-      "4",
-      "4",
-      "1",
-      "5",
-      "1",
-      "5",
-      "5",
-      "4",
-      "2"
+      3,
+      4,
+      5,
+      3,
+      4,
+      5,
+      5,
+      4,
+      3,
+      2
     ]
 },{
   "name":"Sarge",
   "photo":"https://www.germanshepherdrescue.co.uk/images/storm.hope.3.jpg.pagespeed.ce.qVBfaB8Ik8.jpg",
   "scores":[
-      "5",
-      "4",
-      "4",
-      "1",
-      "5",
-      "1",
-      "5",
-      "5",
-      "4",
-      "2"
+      4,
+      5,
+      5,
+      2,
+      3,
+      4,
+      3,
+      5,
+      4,
+      3
     ]
+},{
+  "name": "Princess",
+  "photo":"https://americanbullydaily.com/wp-content/uploads/2016/01/Pitbull-Dog-Smiling-300x225.jpg",
+  "scores":[
+      4,
+      3,
+      4,
+      4,
+      5,
+      1,
+      5,
+      4,
+      3,
+      4
+  ]
+},{
+  "name": "Dakota",
+  "photo":"https://vetstreet.brightspotcdn.com/dims4/default/d0264e9/2147483647/crop/0x0%2B0%2B0/resize/645x380/quality/90/?url=https%3A%2F%2Fvetstreet-brightspot.s3.amazonaws.com%2Fb6%2F6753d0a80611e0a0d50050568d634f%2Ffile%2FSiberian-Husky-5-645mk062811.jpg",
+  "scores":[
+      4,
+      2,
+      2,
+      5,
+      4,
+      4,
+      1,
+      3,
+      2,
+      4
+  ]
+},{
+  "name": "Sandy",
+  "photo":"http://i.telegraph.co.uk/multimedia/archive/03245/2-Poppy-the-pug_3245252k.jpg",
+  "scores":[
+      2,
+      3,
+      5,
+      1,
+      1,
+      5,
+      4,
+      1,
+      3,
+      5
+  ]
 }
 ];
 
