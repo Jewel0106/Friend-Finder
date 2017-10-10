@@ -1,6 +1,6 @@
 # Fur Friend Finder - Node and Express Servers
 
-A compatibility-based "FriendFinder" application....for your fur friend.
+#### A compatibility-based "FriendFinder" application....for your fur friend.
 
 ![Home Page](/assets/images/home_page.png)
 
