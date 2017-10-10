@@ -1,5 +1,7 @@
-# Friend Finder - Node and Express Servers
+# Fur Friend Finder - Node and Express Servers
 
-A compatibility-based "FriendFinder" application
+A compatibility-based "FriendFinder" application....for your fur friend.
 
-This full-stack site will take in results from your users' surveys, then compare their answers with those from other users. The app will then display the name and picture of the user with the best overall match. 
+Find your pup a new playmate by answering some personality-based questions about them.
+
+This full-stack site will take in results from your survey, then compare your answers with those from other dog owners. The app will then display the name and picture of the dog with the best overall match. 

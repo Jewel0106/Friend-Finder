@@ -209,6 +209,7 @@
 
       //Checks to make sure the form is filled out before creating a match
        if (validateForm() === true) {
+        //creating a new object to take in the input values
         var newFriend = {
           name: $("#friendName").val(),
           photo: $("#friendPhoto").val(),
@@ -235,6 +236,7 @@
           $("#matchName").text(data.name);
           $("#matchImg").attr("src", data.photo);
 
+          //Show the modal
           $("#resultsModal").modal("show");
 
           console.log("Your match is...");
