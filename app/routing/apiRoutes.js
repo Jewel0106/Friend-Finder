@@ -13,6 +13,7 @@ module.exports = function(app) {
     app.post("/api/friends", function(req, res) {
         var newFriend = req.body;
 
+        //Loops through the users scores 
         for (var i = 0; i < newFriend.scores.length; i++) {
             if (newFriend.scores[i] == "1") {
                 newFriend.scores[i] = 1;
@@ -25,11 +26,13 @@ module.exports = function(app) {
 
         var differencesArray = [];
 
+        //Loop through friends in friends.js 
         for (var i = 0; i < friends.length; i++) {
 
             var comparedFriend = friends[i];
             var totalDifference = 0;
 
+            //Loop through each of those friends scores
             for (var k = 0; k < comparedFriend.scores.length; k++) {
                 var differenceOneScore = Math.abs(comparedFriend.scores[k] - newFriend.scores[k]);
                 totalDifference += differenceOneScore;
